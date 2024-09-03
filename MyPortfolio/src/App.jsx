@@ -79,7 +79,7 @@ export function Certification() {
           </a>
         </div>
         <div>
-          <h3 className="center">Authenticated Digital Transcript of Certifications</h3>
+          <h3 className="center">HTML and CSS Certification</h3>
         </div>
       </div>
     </>
