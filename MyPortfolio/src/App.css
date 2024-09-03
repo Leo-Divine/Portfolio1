@@ -1,3 +1,22 @@
 #header-image {
   width: 250px;
 }
+
+.project {
+  width: 300px;
+}
+.project img {
+  width: 300px;
+}
+
+.certificate > div {
+  width: 30vw;
+}
+.certificate img {
+  width: 300px;
+}
+@media screen and (max-width: 768px) {
+  .certificate > div {
+    width: 100vw;
+  }
+}
