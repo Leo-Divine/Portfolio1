@@ -5,9 +5,14 @@
 }
 body {
   background-color: #d1e1ff;
+  min-height: 100vh;
+}
+#root {
+  min-height: 100vh;
 }
 i {
   font-size: 40px;
+  padding: 5px;
 }
 p, i, h1, h2, h3 {
   color: inherit;
@@ -15,7 +20,7 @@ p, i, h1, h2, h3 {
 a {
   font-size: 1.5em;
 }
-p > a {
+p > a, p > i {
   font-size: initial;
 }
 
@@ -27,10 +32,10 @@ p > a {
   background-color: #26a7f7;
   color: #d1e1ff;
 }
-.section.alt a {
-  color: #bac3e0;
+.section.alt p, .section.alt a, .section.alt i, .section.alt h1, .section.alt h2, .section.alt h3 {
+  color: #d1e1ff;
 }
-.section.round {
+.round {
   border-radius: 10px;
 }
 
@@ -59,4 +64,10 @@ p > a {
 }
 .flex.column {
   flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+  a {
+    font-size: 1.2em;
+  }
 }
