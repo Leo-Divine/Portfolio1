@@ -1,10 +1,11 @@
-.nav-bubble {
-    position: absolute;
-    top: 5px;
-    left: 5px;
+#nav-bubble {
+    position: fixed;
+    top: 10px;
+    left: 10px;
     width: 60px;
     height: 60px;
     border-radius: 100%;
+    padding: 0;
 }
 
 #nav-bar {
@@ -17,7 +18,7 @@
     transition-duration: 0.5s;
 }
 
-.nav-bubble:hover #nav-bar {
+#nav-bubble:hover #nav-bar {
     width: 350px;
     visibility: visible;
 }
@@ -27,12 +28,12 @@
     transition-duration: 0s;
 }
 
-.nav-bubble:hover #nav-bar>* {
+#nav-bubble:hover #nav-bar>* {
     visibility: visible;
 }
 
 @media screen and (max-width: 768px) {
-    .nav-bubble {
+    #nav-bubble {
         position: static;
         top: 0;
         left: 0;
@@ -59,7 +60,7 @@
         transition-duration: 0s;
     }
 
-    .nav-bubble:hover #nav-bar {
+    #nav-bubble:hover #nav-bar {
         width: inherit;
     }
 }
