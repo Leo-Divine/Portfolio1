@@ -1,5 +1,9 @@
-#nav-bubble {
+#nav-bubble,
+#nav-bar {
     position: fixed;
+}
+
+#nav-bubble {
     top: 10px;
     left: 10px;
     width: 60px;
@@ -9,7 +13,6 @@
 }
 
 #nav-bar {
-    position: fixed;
     top: 0;
     left: 0;
     width: 0px;
@@ -33,10 +36,15 @@
 }
 
 @media screen and (max-width: 768px) {
-    #nav-bubble {
-        position: static;
+
+    #nav-bubble,
+    #nav-bar {
         top: 0;
         left: 0;
+    }
+
+    #nav-bubble {
+        position: static;
         width: 100vw;
         height: 80px;
         border-radius: 0;
@@ -45,14 +53,13 @@
 
     #nav-bar {
         position: fixed;
-        top: 0;
-        left: 0;
         width: inherit;
         height: inherit;
         visibility: visible;
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
+        transition-duration: 0s;
     }
 
     #nav-bar>* {

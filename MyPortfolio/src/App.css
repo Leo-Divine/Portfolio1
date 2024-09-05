@@ -14,28 +14,16 @@
   width: 50vw;
 }
 
-.project {
-  width: 300px;
+.section.certificate, .certificate img {
+  max-width: 450px;
 }
-
-.project img {
-  width: 300px;
-}
-
-.certificate>div {
-  width: 30vw;
-}
-
 .certificate img {
-  width: 300px;
+  width: 100%;
 }
 
 @media screen and (max-width: 768px) {
   #about-me-image {
     width: 100vw;
-    height:min-content;
-  }
-  .certificate>div {
-    width: 100vw;
+    height: min-content;
   }
 }
