@@ -92,7 +92,7 @@ export function Projects() {
   );
 }
 
-export function Reference() {
+export function Resume() {
   return (
     <>
     </>

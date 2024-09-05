@@ -2,7 +2,7 @@ import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { Nav } from './Navagation.jsx';
-import { Home, About, Projects, Reference, Certification, Contact } from './App.jsx';
+import { Home, About, Projects, Resume, Certification, Contact } from './App.jsx';
 import { Footer } from './Footer.jsx';
 import './index.css';
 
@@ -24,8 +24,8 @@ const router = createBrowserRouter([
     element: <Projects />,
   },
   {
-    path: "/reference",
-    element: <Reference />,
+    path: "/resume",
+    element: <Resume />,
   },
   {
     path: "/certification",
