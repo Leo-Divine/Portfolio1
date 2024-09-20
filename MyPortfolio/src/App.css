@@ -10,7 +10,7 @@
   color: #d1e1ff;
 }
 
-#about-me-image {
+.about-me-image {
   width: 50vw;
 }
 
@@ -22,7 +22,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  #about-me-image {
+  .about-me-image {
     width: 100vw;
     height: min-content;
   }

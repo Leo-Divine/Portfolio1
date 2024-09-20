@@ -41,7 +41,7 @@ export function About() {
         <h1 className="center">About Me</h1>
       </header>
       <div className="flex nowrap">
-        <img id="about-me-image" src="./src/assets/img/aboutMeImage.jpg" alt="About Me Image"></img>
+        <img className="about-me-image" src="./src/assets/img/aboutMeImage.jpg" alt="About Me Image"></img>
         <div className="section-alt center flex vertical-around">
           <h3>My name is Austin Isidoro-Rossini. I'm a programmer with a strong passion for learning and creating. Starting in 5th grade, I've learned to code in a variety of languages, including html, js, and react. Overcoming challenges is part of what I do, and I work to make our problems into your success.</h3>
           <div className="section full flex between center round">
@@ -79,7 +79,7 @@ export function Projects() {
         <h3 className="center">Here are my projects that I created.</h3>
       </header>
       <div className="flex nowrap">
-        <img id="about-me-image" src="./src/assets/img/blooketLeaderboard.jpg" alt="About Me Image"></img>
+        <img className="about-me-image" src="./src/assets/img/blooketLeaderboard.jpg" alt="Blooket Leaderboards"></img>
         <div className="section-alt split center">
           <h1>Blooket Leaderboards</h1>
           <br></br>
@@ -113,9 +113,14 @@ export function Certification() {
           <h3>Most Outstanding: Programming and Web Development</h3>
         </div>
         <div className="certificate center section round">
-          <img className="round" src="./src/assets/img/certiportCertificate.png" alt="Certiport Certificate"></img>
+          <img className="round" src="./src/assets/img/certiportCertificate1.png" alt="Certiport Certificate"></img>
           <h1>HTML and CSS Certification</h1>
           <h3>Information Technology Specialist in HTML and CSS</h3>
+        </div>
+        <div className="certificate center section round">
+          <img className="round" src="./src/assets/img/certiportCertificate2.png" alt="Certiport Certificate"></img>
+          <h1>Javascript Certification</h1>
+          <h3>Information Technology Specialist in Javascript</h3>
         </div>
       </div>
     </>
