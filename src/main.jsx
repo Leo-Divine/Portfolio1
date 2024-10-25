@@ -8,31 +8,31 @@ import './index.css';
 
 const router = createBrowserRouter([
   {
-    path: "Portfolio1/",
+    path: "/Portfolio1/",
     element: <Home />,
   },
   {
-    path: "Portfolio1/home",
+    path: "/Portfolio1/home",
     element: <Home />,
   },
   {
-    path: "Portfolio1/about",
+    path: "/Portfolio1/about",
     element: <About />,
   },
   {
-    path: "Portfolio1/projects",
+    path: "/Portfolio1/projects",
     element: <Projects />,
   },
   {
-    path: "Portfolio1/resume",
+    path: "/Portfolio1/resume",
     element: <Resume />,
   },
   {
-    path: "Portfolio1/certification",
+    path: "/Portfolio1/certification",
     element: <Certification />,
   },
   {
-    path: "Portfolio1/contact",
+    path: "/Portfolio1/contact",
     element: <Contact />,
   },
   {
