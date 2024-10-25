@@ -2,7 +2,7 @@ import './App.css';
 import headerImage from "./assets/img/headerImage.jpg";
 import aboutMeImage from "./assets/img/aboutMeImage.jpg";
 import blooketLeaderboard from "./assets/img/blooketLeaderboard.jpg";
-import schoolCertificate from "./assets/img/schoolCertificate.png";
+import schoolCertificate from "./assets/img/schoolCertificate.jpg";
 import certiportCertificate1 from "./assets/img/certiportCertificate1.png";
 import certiportCertificate2 from "./assets/img/certiportCertificate2.png"
 
