@@ -7,7 +7,7 @@ export function Home() {
         <div className="flex around">
           <div>
             <div className="section-alt round">
-              <img id="header-image" className="round" src="./src/assets/img/headerImage.jpg" alt="Header Image" title="Yes I have red contacts. No I'm not high in this picture."></img>
+              <img id="header-image" className="round" src="./assets/img/headerImage.jpg" alt="Header Image" title="Yes I have red contacts. No I'm not high in this picture."></img>
             </div>
           </div>
           <div>
