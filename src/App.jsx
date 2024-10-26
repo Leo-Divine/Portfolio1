@@ -3,6 +3,7 @@ import './App.css';
 import headerImage from "./assets/img/headerImage.jpg";
 import aboutMeImage from "./assets/img/aboutMeImage.jpg";
 import blooketLeaderboard from "./assets/img/blooketLeaderboard.jpg";
+import crystalClicker from "./assets/img/crystalClicker.png";
 import schoolCertificate from "./assets/img/schoolCertificate.jpg";
 import certiportCertificate1 from "./assets/img/certiportCertificate1.png";
 import certiportCertificate2 from "./assets/img/certiportCertificate2.png";
@@ -48,7 +49,7 @@ export function About() {
       <header>
         <h1 className="center">About Me</h1>
       </header>
-      <div className="flex nowrap">
+      <div className="duel-container flex nowrap">
         <img className="about-me-image" src={aboutMeImage} alt="About Me Image"></img>
         <div className="section-alt center flex vertical-around">
           <h3>My name is Austin Isidoro-Rossini. I'm a programmer with a strong passion for learning and creating. Starting in 5th grade, I've learned to code in a variety of languages, including JavaScript, React, and C#. Overcoming challenges is part of what I do, and I work to make our problems into your success.</h3>
@@ -86,14 +87,24 @@ export function Projects() {
         <h1 className="center">My Projects</h1>
         <h3 className="center">Here are my projects that I created.</h3>
       </header>
-      <div className="flex nowrap">
+      <div className="duel-container flex nowrap">
         <img className="about-me-image" src={blooketLeaderboard} alt="Blooket Leaderboards"></img>
         <div className="section-alt split center">
           <h1>Blooket Leaderboards</h1>
           <br></br>
           <h3>A website inspired by blooket that allows you to upload your blooket stats and comapre them with others. It ranks these players based on how well you do, and it updates automatically apon user upload. You can also try to break world records with video proof, giving more insentive to participate.</h3>
           <br></br>
-          <a href="https://blooket.games" target="_blank">Check out the website here!</a>
+          <a href="https://booyaalex.github.io/Blooket-Leaderboards/" target="_blank">Check out the website here!</a>
+        </div>
+      </div>
+      <div className="duel-container flex nowrap">
+        <img className="about-me-image" src={crystalClicker} alt="Crystal Clicker"></img>
+        <div className="section-alt split center">
+          <h1>Crystal Clicker</h1>
+          <br></br>
+          <h3>A basic clicker game I created in JavaScript. Click the crystal to get crystals, and spend those crystals to get upgrades to get more crystals.</h3>
+          <br></br>
+          <a href="https://booyaalex.github.io/Blooket-Leaderboards/" target="_blank">Play the game here!</a>
         </div>
       </div>
     </>
