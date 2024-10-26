@@ -24,6 +24,5 @@
 @media screen and (max-width: 768px) {
   .about-me-image {
     width: 100vw;
-    height: min-content;
   }
 }

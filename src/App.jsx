@@ -35,7 +35,7 @@ export function Home() {
         <h1>About Me</h1>
         <br></br>
         <div className="section round">
-          <p>My name is Austin Isidoro-Rossini. I'm a programmer with a strong passion for learning and creating. Starting in 5th grade, I've learned to code in a variety of languages, including html, js, and react. Overcoming challenges is part of what I do, and I work to make our pro... <a href="./about">Continue Reading -&gt;</a></p>
+          <p>My name is Austin Isidoro-Rossini. I'm a programmer with a strong passion for learning and creating. Starting in 5th grade, I've learned to code in a variety of languages, including JavaScript, React, and C#. Overcoming challenges is part of what I do, and I work to make our pro... <a href="./about">Continue Reading -&gt;</a></p>
         </div>
       </div>
     </>
@@ -51,7 +51,7 @@ export function About() {
       <div className="flex nowrap">
         <img className="about-me-image" src={aboutMeImage} alt="About Me Image"></img>
         <div className="section-alt center flex vertical-around">
-          <h3>My name is Austin Isidoro-Rossini. I'm a programmer with a strong passion for learning and creating. Starting in 5th grade, I've learned to code in a variety of languages, including html, js, and react. Overcoming challenges is part of what I do, and I work to make our problems into your success.</h3>
+          <h3>My name is Austin Isidoro-Rossini. I'm a programmer with a strong passion for learning and creating. Starting in 5th grade, I've learned to code in a variety of languages, including JavaScript, React, and C#. Overcoming challenges is part of what I do, and I work to make our problems into your success.</h3>
           <div className="section full flex between center round">
             <div className="flex split vertical-center center">
               <i className="fa-regular fa-handshake"></i>
