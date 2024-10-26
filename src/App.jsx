@@ -104,7 +104,7 @@ export function Projects() {
           <br></br>
           <h3>A basic clicker game I created in JavaScript. Click the crystal to get crystals, and spend those crystals to get upgrades to get more crystals.</h3>
           <br></br>
-          <a href="https://booyaalex.github.io/Blooket-Leaderboards/" target="_blank">Play the game here!</a>
+          <a href="https://booyaalex.github.io/Clicker-Project/" target="_blank">Play the game here!</a>
         </div>
       </div>
     </>
