@@ -164,7 +164,7 @@ export function Contact() {
             <i className="fa-solid fa-phone"></i>
             <h2>Phone</h2>
           </div>
-          <a href="tel:5084167911">(508)-416-XXXX</a>
+          <a href="tel:7742311759">(774)-231-1759</a>
         </div>
         <div className="flex vertical-center between">
           <div className="flex vertical-center">
