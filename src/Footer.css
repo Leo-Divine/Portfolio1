@@ -2,3 +2,7 @@
   background-color: #010c30;
   width: 100vw;
 }
+#footer p,
+#footer i {
+  margin: 0;
+}

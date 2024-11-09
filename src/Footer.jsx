@@ -5,7 +5,7 @@ export function Footer() {
     <>
       <br></br>
       <footer id="footer" className="section-alt">
-        <h3 className="center">Austin Isidoro-Rossini</h3>
+        <h3 className="text-center">Austin Isidoro-Rossini</h3>
         <br></br>
         <div className="flex around">
           <div>

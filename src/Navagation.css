@@ -26,6 +26,11 @@
     visibility: visible;
 }
 
+#nav-bar>a {
+    margin: 0 5px;
+    font-size: 1.6em;
+}
+
 #nav-bar>* {
     visibility: hidden;
     transition-duration: 0s;
@@ -62,9 +67,13 @@
         transition-duration: 0s;
     }
 
+    #nav-bar>a {
+        margin: 0;
+        font-size: 1.25em;
+    }
+
     #nav-bar>* {
         visibility: visible;
-        transition-duration: 0s;
     }
 
     #nav-bubble:hover #nav-bar {

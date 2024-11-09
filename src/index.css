@@ -82,6 +82,7 @@ h3 {
 .section-alt h2,
 .section-alt h3 {
   color: #d1e1ff;
+  margin: 3px;
 }
 
 .section p,
@@ -91,6 +92,7 @@ h3 {
 .section h2,
 .section h3 {
   color: #010c30;
+  margin: 3px;
 }
 
 .round {
@@ -98,10 +100,12 @@ h3 {
 }
 
 .center {
-  text-align: center;
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+.text-center {
+  text-align: center;
 }
 
 .flex {

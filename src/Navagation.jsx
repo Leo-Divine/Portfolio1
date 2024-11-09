@@ -10,7 +10,7 @@ export function Nav() {
           <a href="./about">About</a>
           <a href="./projects">Projects</a>
           <a href="./resume">Resume</a>
-          <a href="./certification">Certificats & Awards</a>
+          <a href="./certification">Certificates</a>
           <a href="./contact">Contact</a>
         </div>
       </nav>
