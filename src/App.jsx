@@ -40,7 +40,7 @@ export function Home() {
         <h1>About Me</h1>
         <br></br>
         <div className="section round">
-          <p>My name is Austin Isidoro-Rossini. I&apos;m a programmer with a strong passion for learning and creating. Starting in 5th grade, I&apos;ve learned to code in a variety of languages, including JavaScript, React, and C#. Overcoming challenges is part of what I do, and I work to make our pro... <a href="./about">Continue Reading -&gt;</a></p>
+          <p>My name is Austin Isidoro-Rossini. I&apos;m a programmer with a strong passion for learning and creating. Starting in 5th grade, I&apos;ve learned to code in a variety of languages, including JavaScript, C#, and Java. Overcoming challenges is part of what I do, and I work to make our pro... <a href="./about">Continue Reading -&gt;</a></p>
         </div>
       </div>
     </>
@@ -56,7 +56,7 @@ export function About() {
       <div className="duel-container flex nowrap">
         <img className="about-me-image" src={aboutMeImage} alt="About Me Image"></img>
         <div className="section-alt center flex vertical-around">
-          <h3>My name is Austin Isidoro-Rossini. I&apos;m a programmer with a strong passion for learning and creating. Starting in 5th grade, I&apos;ve learned to code in a variety of languages, including JavaScript, React, and C#. Overcoming challenges is part of what I do, and I work to make our problems into your success.</h3>
+          <h3>My name is Austin Isidoro-Rossini. I&apos;m a programmer with a strong passion for learning and creating. Starting in 5th grade, I&apos;ve learned to code in a variety of languages, including JavaScript, C#, and Java. Overcoming challenges is part of what I do, and I work to make our problems into your success.</h3>
           <div className="section full flex between center round">
             <div className="flex split vertical-center center">
               <i className="fa-regular fa-handshake"></i>
@@ -132,16 +132,19 @@ export function Projects() {
           <img className="round" src={matchThreeGame} alt="Match 3 Game"></img>
           <h1>Match 3 Game</h1>
           <h3>A simple version of a match 3 game made in JavaScript. It's similar to Candy Crush.</h3>
+          <a href="https://booyaalex.github.io/Match-3-Game/" target="_blank">Play the Game Here!</a>
         </div>
         <div className="certificate center section round">
           <img className="round" src={flappyBird} alt="Flappy Bird"></img>
           <h1>Flappy Birb</h1>
           <h3>A simplified version of the game Flappy Bird made in JavaScript created for showcases.</h3>
+          <a href="https://booyaalex.github.io/Flappy-Birb/" target="_blank">Play the Game Here!</a>
         </div>
         <div className="certificate center section round">
           <img className="round" src={calculatorApp} alt="Calculator App"></img>
           <h1>Calculator App</h1>
           <h3>A calculator app I made in Java to learn the language.</h3>
+          <a href="https://github.com/booyaalex/Calculator" target="_blank">See the Code Here!</a>
         </div>
       </div>
     </>
