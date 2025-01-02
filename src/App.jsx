@@ -4,6 +4,10 @@ import headerImage from "./assets/img/headerImage.jpg";
 import aboutMeImage from "./assets/img/aboutMeImage.jpg";
 import blooketLeaderboard from "./assets/img/blooketLeaderboard.png";
 import crystalClicker from "./assets/img/crystalClicker.png";
+import musicApp from "./assets/img/musicApp.png";
+import matchThreeGame from "./assets/img/matchThreeGame.png";
+import flappyBird from "./assets/img/flappyBird.png";
+import calculatorApp from "./assets/img/calculatorApp.png";
 import schoolCertificate from "./assets/img/schoolCertificate.jpg";
 import certiportCertificate1 from "./assets/img/certiportCertificate1.png";
 import certiportCertificate2 from "./assets/img/certiportCertificate2.png";
@@ -91,7 +95,7 @@ export function Projects() {
     <>
       <header>
         <h1 className="text-center">My Projects</h1>
-        <h3 className="text-center">Here are my projects that I created.</h3>
+        <h3 className="text-center">Here are some projects that I've created.</h3>
       </header>
       <div className="duel-container flex nowrap">
         <img className="about-me-image" src={blooketLeaderboard} alt="Blooket Leaderboards"></img>
@@ -100,7 +104,7 @@ export function Projects() {
           <br></br>
           <h3>A website inspired by blooket that allows you to upload your blooket stats and comapre them with others. It ranks these players based on how well you do, and it updates automatically apon user upload. You can also try to break world records with video proof, giving more insentive to participate.</h3>
           <br></br>
-          <a href="https://blooket-leaderboards.pages.dev/" target="_blank">Check out the website here!</a>
+          <a href="https://blooket-leaderboards.pages.dev/" target="_blank">Check out the Website Here!</a>
         </div>
       </div>
       <div className="duel-container flex nowrap">
@@ -110,7 +114,34 @@ export function Projects() {
           <br></br>
           <h3>A basic clicker game I created in JavaScript. Click the crystal to get crystals, and spend those crystals to get upgrades to get more crystals.</h3>
           <br></br>
-          <a href="https://booyaalex.github.io/Clicker-Project/" target="_blank">Play the game here!</a>
+          <a href="https://booyaalex.github.io/Clicker-Project/" target="_blank">Play the Game Here!</a>
+        </div>
+      </div>
+      <div className="duel-container flex nowrap">
+        <img className="about-me-image" src={musicApp} alt="The Bester Music App"></img>
+        <div className="section-alt split center text-center">
+          <h1>The Bester Music App</h1>
+          <br></br>
+          <h3>An application I created in C# that let's you play music from your music folder. It allows you to look up and play music, as well as create playlists. It uses SQLite to manage your music quickly and efficently.</h3>
+          <br></br>
+          <a href="https://github.com/booyaalex/TheBesterMusicApp/archive/refs/tags/v1.2.0.3.zip" target="_self">Download the Application Here!</a>
+        </div>
+      </div>
+      <div className="flex around text-center">
+        <div className="certificate center section round">
+          <img className="round" src={matchThreeGame} alt="Match 3 Game"></img>
+          <h1>Match 3 Game</h1>
+          <h3>A simple version of a match 3 game made in JavaScript. It's similar to Candy Crush.</h3>
+        </div>
+        <div className="certificate center section round">
+          <img className="round" src={flappyBird} alt="Flappy Bird"></img>
+          <h1>Flappy Birb</h1>
+          <h3>A simplified version of the game Flappy Bird made in JavaScript created for showcases.</h3>
+        </div>
+        <div className="certificate center section round">
+          <img className="round" src={calculatorApp} alt="Calculator App"></img>
+          <h1>Calculator App</h1>
+          <h3>A calculator app I made in Java to learn the language.</h3>
         </div>
       </div>
     </>
