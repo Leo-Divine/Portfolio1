@@ -8,6 +8,7 @@ import musicApp from "./assets/img/musicApp.png";
 import matchThreeGame from "./assets/img/matchThreeGame.png";
 import flappyBird from "./assets/img/flappyBird.png";
 import calculatorApp from "./assets/img/calculatorApp.png";
+import ticTacToeGame from "./assets/img/ticTacToeGame.png";
 import schoolCertificate from "./assets/img/schoolCertificate.jpg";
 import certiportCertificate1 from "./assets/img/certiportCertificate1.png";
 import certiportCertificate2 from "./assets/img/certiportCertificate2.png";
@@ -145,6 +146,12 @@ export function Projects() {
           <h1>Calculator App</h1>
           <h3>A calculator app I made in Java to learn the language.</h3>
           <a href="https://github.com/booyaalex/Calculator" target="_blank">See the Code Here!</a>
+        </div>
+        <div className="certificate center section round">
+          <img className="round" src={ticTacToeGame} alt="Tic Tac Toe Game"></img>
+          <h1>Tic Tac Toe Game</h1>
+          <h3>A recreation of the Tic Tac Toe game I made in Java.</h3>
+          <a href="https://github.com/booyaalex/TicTacToe" target="_blank">See the Code Here!</a>
         </div>
       </div>
     </>
