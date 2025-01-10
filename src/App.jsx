@@ -1,7 +1,8 @@
 import './App.css';
 
 import headerImage from "./assets/img/headerImage.jpg";
-import aboutMeImage from "./assets/img/aboutMeImage.jpg";
+import aboutMeImageOne from "./assets/img/aboutMeImageOne.jpg";
+import aboutMeImageTwo from "./assets/img/aboutMeImageTwo.png";
 import blooketLeaderboard from "./assets/img/blooketLeaderboard.png";
 import crystalClicker from "./assets/img/crystalClicker.png";
 import musicApp from "./assets/img/musicApp.png";
@@ -37,12 +38,18 @@ export function Home() {
           </div>
         </div>
       </header>
-      <div id="about-background-image" className="flex column center vertical-center">
-        <h1>About Me</h1>
-        <br></br>
-        <div className="section round">
-          <p>My name is Austin Isidoro-Rossini. I&apos;m a programmer with a strong passion for learning and creating. Starting in 5th grade, I&apos;ve learned to code in a variety of languages, including JavaScript, C#, and Java. Overcoming challenges is part of what I do, and I work to make our pro... <a href="./about">Continue Reading -&gt;</a></p>
+      <div id="about-background-image" className="flex column center vertical-between">
+      <div className="flex evenly text-center">
+        <div className="certificate center section round">
+          <h1>About Me</h1>
+          <p>My name is Austin Isidoro-Rossini. I'm a programmer with a strong passion for learning and creating. Starting in 5th grade, I've learned to code in a variety of languages, including JavaScript, C#, and Java. Overcoming challenges is part of what I do, and I work to make our pro... <a href="./about">Continue Reading -&gt;</a></p>
         </div>
+        <div className="certificate center section round">
+          <h1>My Hobbies</h1>
+          <p>Some of my hobbies include listening to music, reading, and coding. I enjoy spending time with family and friends, and I take time to spend some time with them.</p>
+        </div>
+      </div>
+          
       </div>
     </>
   );
@@ -55,7 +62,7 @@ export function About() {
         <h1 className="text-center">About Me</h1>
       </header>
       <div className="duel-container flex nowrap">
-        <img className="about-me-image" src={aboutMeImage} alt="About Me Image"></img>
+        <img className="about-me-image" src={aboutMeImageTwo} alt="About Me Image"></img>
         <div className="section-alt center flex vertical-around">
           <h3>My name is Austin Isidoro-Rossini. I&apos;m a programmer with a strong passion for learning and creating. Starting in 5th grade, I&apos;ve learned to code in a variety of languages, including JavaScript, C#, and Java, and have dabbled in plenty of others. Overcoming challenges is part of what I do, and I work to make our problems into your success.</h3>
           <div className="section full flex between center round">

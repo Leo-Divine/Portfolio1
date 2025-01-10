@@ -3,15 +3,22 @@
 }
 
 #about-background-image {
-  background-image: url("./assets/img/backgroundImage.png");
+  background-image: url("./assets/img/aboutMeImageOne.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: top;
+  background-repeat: no-repeat;
   min-height: 50vh;
   color: #d1e1ff;
+}
+#about-background-image .certificate {
+  opacity: 0.85;
 }
 
 .duel-container {
   margin: 10px 0px;
+}
+.duel-container .section {
+  margin: 0 auto;
 }
 .about-me-image {
   width: 50vw;
@@ -25,6 +32,9 @@
 }
 
 @media screen and (max-width: 768px) {
+  .duel-container .section {
+    margin: 10px auto;
+  }
   .about-me-image {
     width: 100vw;
   }
