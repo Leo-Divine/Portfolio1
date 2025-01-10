@@ -253,7 +253,7 @@ export function Resume() {
           <li>Certiport JavaScript Certification</li>
         </ul>
         <br></br>
-        <a href="./src/assets/Resume.pdf" target="_blank">PDF Version</a>
+        <a href="https://raw.githubusercontent.com/booyaalex/Portfolio1/refs/heads/main/src/assets/Resume.pdf">PDF Version</a>
       </div>
     </>
   );
