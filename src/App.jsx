@@ -39,17 +39,16 @@ export function Home() {
         </div>
       </header>
       <div id="about-background-image" className="flex column center vertical-between">
-      <div className="flex evenly text-center">
-        <div className="certificate center section round">
-          <h1>About Me</h1>
-          <p>My name is Austin Isidoro-Rossini. I'm a programmer with a strong passion for learning and creating. Starting in 5th grade, I've learned to code in a variety of languages, including JavaScript, C#, and Java. Overcoming challenges is part of what I do, and I work to make our pro... <a href="./about">Continue Reading -&gt;</a></p>
+        <div className="flex evenly text-center">
+          <div className="certificate center section round">
+            <h1>About Me</h1>
+            <p>My name is Austin Isidoro-Rossini. I'm a programmer with a strong passion for learning and creating. Starting in 5th grade, I've learned to code in a variety of languages, including JavaScript, C#, and Java, and have dabbled in plenty of others. Overcoming challenges is part of wha... <a href="./about">Continue Reading -&gt;</a></p>
+          </div>
+          <div className="certificate center section round">
+            <h1>My Hobbies</h1>
+            <p>Some of my hobbies include listening to music, reading, and coding. I enjoy spending time with family and friends, and I take time to spend some time with them.</p>
+          </div>
         </div>
-        <div className="certificate center section round">
-          <h1>My Hobbies</h1>
-          <p>Some of my hobbies include listening to music, reading, and coding. I enjoy spending time with family and friends, and I take time to spend some time with them.</p>
-        </div>
-      </div>
-          
       </div>
     </>
   );
