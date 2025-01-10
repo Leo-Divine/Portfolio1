@@ -10,7 +10,7 @@
   min-height: 50vh;
   color: #d1e1ff;
 }
-#about-background-image .certificate {
+#about-background-image .bubble {
   opacity: 0.85;
 }
 
@@ -24,10 +24,10 @@
   width: 50vw;
 }
 
-.section.certificate, .certificate img {
+.section.bubble, .bubble img {
   max-width: 450px;
 }
-.certificate img {
+.bubble img {
   width: 100%;
 }
 

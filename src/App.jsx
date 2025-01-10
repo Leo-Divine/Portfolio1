@@ -40,11 +40,11 @@ export function Home() {
       </header>
       <div id="about-background-image" className="flex column center vertical-between">
         <div className="flex evenly text-center">
-          <div className="certificate center section round">
+          <div className="bubble center section round">
             <h1>About Me</h1>
             <p>My name is Austin Isidoro-Rossini. I'm a programmer with a strong passion for learning and creating. Starting in 5th grade, I've learned to code in a variety of languages, including JavaScript, C#, and Java, and have dabbled in plenty of others. Overcoming challenges is part of wha... <a href="./about">Continue Reading -&gt;</a></p>
           </div>
-          <div className="certificate center section round">
+          <div className="bubble center section round">
             <h1>My Hobbies</h1>
             <p>Some of my hobbies include listening to music, reading, and coding. I enjoy spending time with family and friends, and I take time to spend some time with them.</p>
           </div>
@@ -70,7 +70,7 @@ export function About() {
               <h2>Teamwork</h2>
             </div>
             <div className="flex split center vertical-center">
-              <p className="text-center">I work well with others in a work environment.</p>
+              <p className="text-center">I&apos;m capable of working with others in a professional work environment.</p>
             </div>
           </div>
           <div className="section full flex between center round">
@@ -79,7 +79,7 @@ export function About() {
               <h2>Leadership</h2>
             </div>
             <div className="flex split center vertical-center">
-              <p className="text-center">I am able to take control of a situation and lead others to success.</p>
+              <p className="text-center">I am able to take control of a situation help lead others to success.</p>
             </div>
           </div>
           <div className="section full flex between center round">
@@ -135,25 +135,25 @@ export function Projects() {
         </div>
       </div>
       <div className="flex around text-center">
-        <div className="certificate center section round">
+        <div className="bubble center section round">
           <img className="round" src={matchThreeGame} alt="Match 3 Game"></img>
           <h1>Match 3 Game</h1>
           <h3>A simple version of a match 3 game made in JavaScript. It's similar to Candy Crush.</h3>
           <a href="https://booyaalex.github.io/Match-3-Game/" target="_blank">Play the Game Here!</a>
         </div>
-        <div className="certificate center section round">
+        <div className="bubble center section round">
           <img className="round" src={flappyBird} alt="Flappy Bird"></img>
           <h1>Flappy Birb</h1>
           <h3>A simplified version of the game Flappy Bird made in JavaScript created for showcases.</h3>
           <a href="https://booyaalex.github.io/Flappy-Birb/" target="_blank">Play the Game Here!</a>
         </div>
-        <div className="certificate center section round">
+        <div className="bubble center section round">
           <img className="round" src={calculatorApp} alt="Calculator App"></img>
           <h1>Calculator App</h1>
           <h3>A calculator app I made in Java to learn the language.</h3>
           <a href="https://github.com/booyaalex/Calculator" target="_blank">See the Code Here!</a>
         </div>
-        <div className="certificate center section round">
+        <div className="bubble center section round">
           <img className="round" src={ticTacToeGame} alt="Tic Tac Toe Game"></img>
           <h1>Tic Tac Toe Game</h1>
           <h3>A recreation of the Tic Tac Toe game I made in Java.</h3>
@@ -277,17 +277,17 @@ export function Certification() {
         <h3 className="text-center">Here are my Awards and Certificates that show off my abilities.</h3>
       </header>
       <div className="flex around text-center">
-        <div className="certificate center section round">
+        <div className="bubble center section round">
           <img className="round" src={schoolCertificate} alt="School Certificate"></img>
           <h1>Certificate of Achievement</h1>
           <h3>Most Outstanding: Programming and Web Development</h3>
         </div>
-        <div className="certificate center section round">
+        <div className="bubble center section round">
           <img className="round" src={certiportCertificate1} alt="Certiport Certificate"></img>
           <h1 >HTML and CSS Certification</h1>
           <h3>Information Technology Specialist in HTML and CSS</h3>
         </div>
-        <div className="certificate center section round">
+        <div className="bubble center section round">
           <img className="round" src={certiportCertificate2} alt="Certiport Certificate"></img>
           <h1>Javascript Certification</h1>
           <h3>Information Technology Specialist in Javascript</h3>
