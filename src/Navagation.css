@@ -19,6 +19,7 @@
     height: 100vh;
     visibility: hidden;
     transition-duration: 0.5s;
+    z-index: 3;
 }
 
 #nav-bubble:hover #nav-bar {
