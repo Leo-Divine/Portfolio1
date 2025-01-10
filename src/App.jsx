@@ -164,16 +164,6 @@ export function Projects() {
   );
 }
 
-/*
-  Summary
-  Education   V
-  Skills    V
-  Programming Experience
-  Work Experience   V
-  Honors & Awards   V
-  Volunteer Work    V
- */
-
 export function Resume() {
   return (
     <>
@@ -263,7 +253,7 @@ export function Resume() {
           <li>Certiport JavaScript Certification</li>
         </ul>
         <br></br>
-        <a href="./src/assets/Resume.pdf" download="Austin's Resume">PDF Version</a>
+        <a href="./src/assets/Resume.pdf" download="Austin's Resume.pdf">PDF Version</a>
       </div>
     </>
   );
