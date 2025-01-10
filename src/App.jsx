@@ -57,7 +57,7 @@ export function About() {
       <div className="duel-container flex nowrap">
         <img className="about-me-image" src={aboutMeImage} alt="About Me Image"></img>
         <div className="section-alt center flex vertical-around">
-          <h3>My name is Austin Isidoro-Rossini. I&apos;m a programmer with a strong passion for learning and creating. Starting in 5th grade, I&apos;ve learned to code in a variety of languages, including JavaScript, C#, and Java. Overcoming challenges is part of what I do, and I work to make our problems into your success.</h3>
+          <h3>My name is Austin Isidoro-Rossini. I&apos;m a programmer with a strong passion for learning and creating. Starting in 5th grade, I&apos;ve learned to code in a variety of languages, including JavaScript, C#, and Java, and have dabbled in plenty of others. Overcoming challenges is part of what I do, and I work to make our problems into your success.</h3>
           <div className="section full flex between center round">
             <div className="flex split vertical-center center">
               <i className="fa-regular fa-handshake"></i>
@@ -158,9 +158,107 @@ export function Projects() {
   );
 }
 
+/*
+  Summary
+  Education   V
+  Skills    V
+  Programming Experience
+  Work Experience   V
+  Honors & Awards   V
+  Volunteer Work    V
+ */
+
 export function Resume() {
   return (
     <>
+      <header>
+        <h1 className="text-center">My Resume</h1>
+      </header>
+      <div className="center section round">
+        <div className="text-center">
+          <h1>Austin Isidoro-Rossini</h1>
+          <p>isidororossinia@gmail.com • 774-231-1759</p>
+        </div>
+        <h2>Education</h2>
+        <div className="flex between">
+          <div className="flex">
+            <h4>Enrolled at Keefe Tech</h4>
+            <p>| Frammingham, MA</p>
+          </div>
+          <h4>September 2023 - Present</h4>
+        </div>
+        <p>Current Major: Programming & Web Development</p>
+        <p>GPA: 4.033 / 5</p>
+        <br></br>
+        <h2>Technical Skills</h2>
+        <div className="flex">
+          <h4>Programming Languages:</h4>
+          <p>HTML5, C#, C++, Java, Python</p>
+        </div>
+        <div className="flex">
+          <h4>Database:</h4>
+          <p>SQLite</p>
+        </div>
+        <div className="flex">
+          <h4>Software:</h4>
+          <p>Visual Studio</p>
+        </div>
+        <br></br>
+        <h2>Work Experience</h2>
+        <div className="flex between">
+          <div className="flex">
+            <h4>BDR Automotive</h4>
+            <p>| Janitor & Helper</p>
+            <p>| Holliston, MA</p>
+          </div>
+          <h4>May 2024 - Present</h4>
+        </div>
+        <ul>
+          <li>Cleaned shop.</li>
+          <li>Assisted with various tasks.</li>
+          <li>Gained experience working with others in a productive environment.</li>
+        </ul>
+        <br></br>
+        <h2>Campus and Community Involvement</h2>
+        <div className="flex between">
+          <div className="flex">
+            <h4>Teens A.C.T Club</h4>
+            <p>| Member</p>
+            <p>| Frammingham, MA</p>
+          </div>
+          <h4>September 2024 - Present</h4>
+        </div>
+        <ul>
+          <li>Helped to create a positive environment in our school.</li>
+          <li>Planned and managed events for volunteering in the community.</li>
+        </ul>
+        <br></br>
+        <div className="flex between">
+          <div className="flex">
+            <h4>Pearl Street Cupboard Food Pantry</h4>
+            <p>| Volunteer</p>
+            <p>| Frammingham, MA</p>
+          </div>
+          <h4>November 2024</h4>
+        </div>
+        <ul>
+          <li>Organized an event to volunteer at a local food pantry.</li>
+          <li>Improved productivity by assigning specific jobs to volunteers.</li>
+          <li>Packaged food and cleaned the food pantry.</li>
+        </ul>
+        <br></br>
+        <h2>Honors & Awards</h2>
+        <ul>
+          <li>Keefe Tech Student Ambassador for Programming & Web</li>
+          <li>Keefe Tech Certificate of Achievement in Programming & Web</li>
+          <li>Keefe Tech High Honor Roll 2023-2024 | Term I - Term III</li>
+          <li>Keefe Tech High Honor Roll 2024-2025 | Term I</li>
+          <li>Certiport HTML & CSS Certification</li>
+          <li>Certiport JavaScript Certification</li>
+        </ul>
+        <br></br>
+        <a href="./src/assets/Resume.pdf" download="Austin's Resume">PDF Version</a>
+      </div>
     </>
   );
 }
