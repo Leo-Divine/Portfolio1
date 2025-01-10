@@ -1,7 +1,6 @@
 import './App.css';
 
 import headerImage from "./assets/img/headerImage.jpg";
-import aboutMeImageOne from "./assets/img/aboutMeImageOne.jpg";
 import aboutMeImageTwo from "./assets/img/aboutMeImageTwo.png";
 import blooketLeaderboard from "./assets/img/blooketLeaderboard.png";
 import crystalClicker from "./assets/img/crystalClicker.png";
@@ -42,7 +41,7 @@ export function Home() {
         <div className="flex evenly text-center">
           <div className="bubble center section round">
             <h1>About Me</h1>
-            <p>My name is Austin Isidoro-Rossini. I'm a programmer with a strong passion for learning and creating. Starting in 5th grade, I've learned to code in a variety of languages, including JavaScript, C#, and Java, and have dabbled in plenty of others. Overcoming challenges is part of wha... <a href="./about">Continue Reading -&gt;</a></p>
+            <p>My name is Austin Isidoro-Rossini. I&apos;m a programmer with a strong passion for learning and creating. Starting in 5th grade, I&apos;ve learned to code in a variety of languages, including JavaScript, C#, and Java, and have dabbled in plenty of others. Overcoming challenges is part of wha... <a href="./about">Continue Reading -&gt;</a></p>
           </div>
           <div className="bubble center section round">
             <h1>My Hobbies</h1>
@@ -79,7 +78,7 @@ export function About() {
               <h2>Leadership</h2>
             </div>
             <div className="flex split center vertical-center">
-              <p className="text-center">I am able to take control of a situation help lead others to success.</p>
+              <p className="text-center">I&apos;m able to take control of a situation help lead others to success.</p>
             </div>
           </div>
           <div className="section full flex between center round">
@@ -102,7 +101,7 @@ export function Projects() {
     <>
       <header>
         <h1 className="text-center">My Projects</h1>
-        <h3 className="text-center">Here are some projects that I've created.</h3>
+        <h3 className="text-center">Here are some projects that I&apos;ve created.</h3>
       </header>
       <div className="duel-container flex nowrap">
         <img className="about-me-image" src={blooketLeaderboard} alt="Blooket Leaderboards"></img>
@@ -129,7 +128,7 @@ export function Projects() {
         <div className="section-alt split center text-center">
           <h1>The Bester Music App</h1>
           <br></br>
-          <h3>An application I created in C# that let's you play music from your music folder. It allows you to look up and play music, as well as create playlists. It uses SQLite to manage your music quickly and efficently.</h3>
+          <h3>An application I created in C# that lets you play music from your music folder. It allows you to look up and play music, as well as create playlists. It uses SQLite to manage your music quickly and efficently.</h3>
           <br></br>
           <a href="https://github.com/booyaalex/TheBesterMusicApp/archive/refs/tags/v1.2.0.3.zip" target="_self">Download the Application Here!</a>
         </div>
@@ -138,7 +137,7 @@ export function Projects() {
         <div className="bubble center section round">
           <img className="round" src={matchThreeGame} alt="Match 3 Game"></img>
           <h1>Match 3 Game</h1>
-          <h3>A simple version of a match 3 game made in JavaScript. It's similar to Candy Crush.</h3>
+          <h3>A simple version of a match 3 game made in JavaScript. The game is similar to Candy Crush.</h3>
           <a href="https://booyaalex.github.io/Match-3-Game/" target="_blank">Play the Game Here!</a>
         </div>
         <div className="bubble center section round">
