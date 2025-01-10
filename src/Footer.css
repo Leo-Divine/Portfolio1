@@ -1,6 +1,8 @@
 #footer {
   background-color: #010c30;
   width: 100vw;
+  position: sticky;
+  top: calc(100% - 107px);
 }
 #footer p,
 #footer i {
