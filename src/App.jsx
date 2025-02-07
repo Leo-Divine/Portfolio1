@@ -45,7 +45,7 @@ export function Home() {
           </div>
           <div className="bubble center section round">
             <h1>My Hobbies</h1>
-            <p>Some of my hobbies include listening to music, reading, and coding. I enjoy spending time with family and friends, and I take time to spend some time with them.</p>
+            <p>Some of my hobbies include listening to music, reading, and coding. I enjoy spending time with family and friends, and I take time to spend some time with them. I like playing tennis, and do so weekly.</p>
           </div>
         </div>
       </div>
@@ -209,8 +209,7 @@ export function Resume() {
           <h4>May 2024 - Present</h4>
         </div>
         <ul>
-          <li>Cleaned shop.</li>
-          <li>Assisted with various tasks.</li>
+          <li>Contributed to the organization and cleaning of the workspace.</li>
           <li>Gained experience working with others in a productive environment.</li>
         </ul>
         <br></br>
