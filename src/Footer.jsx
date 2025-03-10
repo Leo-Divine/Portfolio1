@@ -24,7 +24,7 @@ export function Footer() {
             <a href="https://www.facebook.com/profile.php?id=100091782052102&mibextid=LQQJ4d" target="_blank">
               <i className="fa-brands fa-facebook" title="Facebook"></i>
             </a>
-            <a href="https://github.com/booyaalex" target="_blank">
+            <a href="https://github.com/leo-divine" target="_blank">
               <i className="fa-brands fa-github" title="Github"></i>
             </a>
           </div>
