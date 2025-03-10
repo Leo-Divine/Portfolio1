@@ -1,3 +1,5 @@
+import { Octokit } from '@octokit/rest';
+import { useState, useEffect } from 'react';
 import './App.css';
 
 import headerImage from "./assets/img/headerImage.jpg";
@@ -14,6 +16,10 @@ import certiportCertificate1 from "./assets/img/certiportCertificate1.png";
 import certiportCertificate2 from "./assets/img/certiportCertificate2.png";
 import contactHeaderImage from "./assets/img/contactHeaderImage.jpg";
 import oshaCertificate from "./assets/img/oshaCertification.png";
+
+const octokit = new Octokit({
+  auth: process.env.REACT_APP_GIT_API_KEY
+});
 
 export function Home() {
   return (
@@ -55,6 +61,71 @@ export function Home() {
 }
 
 export function About() {
+  const [state, setState] = useState([]);
+
+  useEffect(() => {
+    getTopLanguages().then((response) => {
+      const entries = [...response.entries()];
+      entries.sort((a, b) => b[1] - a[1]);
+
+      const text_elements = [];
+      const chart_elements = [];
+
+      let total_language = 0;
+      for (const value of response.values()) {
+        total_language += value;
+      }
+      for (const [key, value] of entries) {
+        text_elements.push(
+          <p key={key}>
+            {key}: {((value / total_language) * 100).toFixed(2)}%
+          </p>
+        );
+      }
+
+      makeDonut(entries, total_language);
+
+      setState(text_elements);
+    });
+  }, []);
+
+  function makeDonut(entries, total_language) {
+    const canvas = document.getElementById("donut-chart");
+    const ctx = canvas.getContext("2d");
+    canvas.width = 200;
+    canvas.height = 200;
+
+    const COLORS = {
+      'JavaScript': '#f1e05a',
+      'C#': '#178600',
+      'CSS': '#663399',
+      'Java': '#b07219',
+      'C++': '#f34b7d',
+      'HTML': '#e34c26',
+      'Python': '#3572A5',
+      'Rust': '#dea584'
+    };
+
+    const CX = canvas.width / 2;
+    const CY = canvas.height / 2;
+    const RADIUS = 75;
+    const PI = Math.PI;
+    const PI2 = PI * 2;
+    const OFFSET = -PI / 2;
+    let accum = 0;
+    ctx.lineWidth = 25;
+    for (const [key, value] of entries) {
+      ctx.beginPath();
+      ctx.arc(CX, CY, RADIUS,
+        OFFSET + PI2 * (accum / total_language),
+        OFFSET + PI2 * ((accum + value) / total_language)
+      );
+      ctx.strokeStyle = COLORS[key];
+      ctx.stroke();
+      accum += value;
+    }
+  }
+
   return (
     <>
       <header>
@@ -91,6 +162,16 @@ export function About() {
               <p className="text-center">I&apos;m able to take criticism and feedback well, and I&apos;m able to apply that feedback into my work.</p>
             </div>
           </div>
+        </div>
+      </div>
+
+      <div className="section round center">
+        <h2 className="text-center">Here are my Most Used Languages</h2>
+        <div className="flex split center around">
+          <div>
+            {state}
+          </div>
+          <canvas id="donut-chart"></canvas>
         </div>
       </div>
     </>
@@ -375,3 +456,26 @@ export function Contact() {
     </>
   );
 }
+
+async function getTopLanguages() {
+  let langauges = new Map();
+  await octokit.rest.repos.listForUser({
+    username: "leo-divine"
+  }).then(async (user_repositories) => {
+    for (const repo of user_repositories.data) {
+      await octokit.request('GET /repos/leo-divine/{repo}/languages', {
+        repo: repo.name
+      }).then((langauge_data) => {
+        for (const [key, value] of Object.entries(langauge_data.data)) {
+          if (!langauges.has(key)) {
+            langauges.set(key, 0);
+          }
+          langauges.set(key, langauges.get(key) + value);
+        }
+      });
+    }
+  });
+
+  return langauges;
+}
+
