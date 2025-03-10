@@ -31,7 +31,7 @@ export function Home() {
                 <h2>Programmer and Web Developer</h2>
               </div>
               <div>
-                <p>I create simple interactive websites for people who want a clean and modern look. I excel at using html5 to create websites that look and feel great.</p>
+                <p>The Man with the Plan.</p>
               </div>
             </div>
           </div>
@@ -41,7 +41,7 @@ export function Home() {
         <div className="flex evenly text-center">
           <div className="bubble center section round">
             <h1>About Me</h1>
-            <p>My name is Austin Isidoro-Rossini. I&apos;m a programmer with a strong passion for learning and creating. Starting in 5th grade, I&apos;ve learned to code in a variety of languages, including JavaScript, C#, and Java, and have dabbled in plenty of others. Overcoming challenges is part of wha... <a href="./about">Continue Reading -&gt;</a></p>
+            <p>My name is Austin Isidoro-Rossini. I&apos;m a programmer with a strong passion for learning and creating. Starting in 5th grade, I&apos;ve learned to code in a variety of languages, including JavaScript, C#, Java, and I've dabbled in plenty of others. Overcoming challenges is part of wha... <a href="./about">Continue Reading -&gt;</a></p>
           </div>
           <div className="bubble center section round">
             <h1>My Hobbies</h1>
@@ -62,7 +62,7 @@ export function About() {
       <div className="duel-container flex nowrap">
         <img className="about-me-image" src={aboutMeImageTwo} alt="About Me Image"></img>
         <div className="section-alt center flex vertical-around">
-          <h3>My name is Austin Isidoro-Rossini. I&apos;m a programmer with a strong passion for learning and creating. Starting in 5th grade, I&apos;ve learned to code in a variety of languages, including JavaScript, C#, and Java, and have dabbled in plenty of others. Overcoming challenges is part of what I do, and I work to make our problems into your success.</h3>
+          <h3>My name is Austin Isidoro-Rossini. I&apos;m a programmer with a strong passion for learning and creating. Starting in 5th grade, I&apos;ve learned to code in a variety of languages, including JavaScript, C#, Java, and I've dabbled in plenty of others. Overcoming challenges is part of what I do, and I work to make our problems into your success.</h3>
           <div className="section full flex between center round">
             <div className="flex split vertical-center center">
               <i className="fa-regular fa-handshake"></i>
@@ -120,7 +120,7 @@ export function Projects() {
           <br></br>
           <h3>A basic clicker game I created in JavaScript. Click the crystal to get crystals, and spend those crystals to get upgrades to get more crystals.</h3>
           <br></br>
-          <a href="https://booyaalex.github.io/Clicker-Project/" target="_blank">Play the Game Here!</a>
+          <a href="https://leo-divine.github.io/Clicker-Project/" target="_blank">Play the Game Here!</a>
         </div>
       </div>
       <div className="duel-container flex nowrap">
@@ -130,7 +130,7 @@ export function Projects() {
           <br></br>
           <h3>An application I created in C# that lets you play music from your music folder. It allows you to look up and play music, as well as create playlists. It uses SQLite to manage your music quickly and efficently.</h3>
           <br></br>
-          <a href="https://github.com/booyaalex/TheBesterMusicApp/archive/refs/tags/v1.2.0.3.zip" target="_self">Download the Application Here!</a>
+          <a href="https://github.com/leo-divine/TheBesterMusicApp/archive/refs/tags/v1.2.0.3.zip" target="_self">Download the Application Here!</a>
         </div>
       </div>
       <div className="flex around text-center">
@@ -138,25 +138,25 @@ export function Projects() {
           <img className="round" src={matchThreeGame} alt="Match 3 Game"></img>
           <h1>Match 3 Game</h1>
           <h3>A simple version of a match 3 game made in JavaScript. The game is similar to Candy Crush.</h3>
-          <a href="https://booyaalex.github.io/Match-3-Game/" target="_blank">Play the Game Here!</a>
+          <a href="https://leo-divine.github.io/Match-3-Game/" target="_blank">Play the Game Here!</a>
         </div>
         <div className="bubble center section round">
           <img className="round" src={flappyBird} alt="Flappy Bird"></img>
           <h1>Flappy Birb</h1>
           <h3>A simplified version of the game Flappy Bird made in JavaScript created for showcases.</h3>
-          <a href="https://booyaalex.github.io/Flappy-Birb/" target="_blank">Play the Game Here!</a>
+          <a href="https://leo-divine.github.io/Flappy-Birb/" target="_blank">Play the Game Here!</a>
         </div>
         <div className="bubble center section round">
           <img className="round" src={calculatorApp} alt="Calculator App"></img>
           <h1>Calculator App</h1>
           <h3>A calculator app I made in Java to learn the language.</h3>
-          <a href="https://github.com/booyaalex/Calculator" target="_blank">See the Code Here!</a>
+          <a href="https://github.com/leo-divine/Calculator" target="_blank">See the Code Here!</a>
         </div>
         <div className="bubble center section round">
           <img className="round" src={ticTacToeGame} alt="Tic Tac Toe Game"></img>
           <h1>Tic Tac Toe Game</h1>
           <h3>A recreation of the Tic Tac Toe game I made in Java.</h3>
-          <a href="https://github.com/booyaalex/TicTacToe" target="_blank">See the Code Here!</a>
+          <a href="https://github.com/leo-divine/TicTacToe" target="_blank">See the Code Here!</a>
         </div>
       </div>
     </>
@@ -183,7 +183,7 @@ export function Resume() {
           <h4>September 2023 - Present</h4>
         </div>
         <p>Current Major: Programming & Web Development</p>
-        <p>GPA: 4.033 / 5</p>
+        <p>GPA: 4.092 / 5</p>
         <br></br>
         <h2>Technical Skills</h2>
         <div className="flex">
@@ -243,15 +243,33 @@ export function Resume() {
         <br></br>
         <h2>Honors & Awards</h2>
         <ul>
-          <li>Keefe Tech Student Ambassador for Programming & Web</li>
-          <li>Keefe Tech Certificate of Achievement in Programming & Web</li>
-          <li>Keefe Tech High Honor Roll 2023-2024 | Term I - Term III</li>
-          <li>Keefe Tech High Honor Roll 2024-2025 | Term I</li>
-          <li>Certiport HTML & CSS Certification</li>
-          <li>Certiport JavaScript Certification</li>
+          <li>Keefe Tech
+            <ul>
+              <li>Keefe Tech Student Ambassador for Programming & Web</li>
+              <li>Keefe Tech Certificate of Achievement in Programming & Web</li>
+              <li>Keefe Tech High Honor Roll 2023-2024 | Term I - Term III</li>
+              <li>Keefe Tech High Honor Roll 2024-2025 | Term I</li>
+            </ul>
+          </li>
+          <li>Certifications
+            <ul>
+              <li>Certiport HTML & CSS Certification</li>
+              <li>Certiport JavaScript Certification</li>
+            </ul>
+          </li>
+          <li>Competitions
+            <ul>
+              <li>MABPA SLC 2025
+                <ul>
+                  <li>Fundamentals of Web Design: 1st Place</li>
+                  <li>C# Programming: 2nd Place</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
         </ul>
         <br></br>
-        <a href="https://raw.githubusercontent.com/booyaalex/Portfolio1/refs/heads/main/src/assets/Resume.pdf">PDF Version</a>
+        <a href="https://raw.githubusercontent.com/leo-divine/Portfolio1/refs/heads/main/src/assets/Resume.pdf">PDF Version</a>
       </div>
     </>
   );
@@ -272,13 +290,23 @@ export function Certification() {
         </div>
         <div className="bubble center section round">
           <img className="round" src={certiportCertificate1} alt="Certiport Certificate"></img>
-          <h1 >HTML and CSS Certification</h1>
+          <h1>HTML and CSS Certification</h1>
           <h3>Information Technology Specialist in HTML and CSS</h3>
         </div>
         <div className="bubble center section round">
           <img className="round" src={certiportCertificate2} alt="Certiport Certificate"></img>
           <h1>Javascript Certification</h1>
           <h3>Information Technology Specialist in Javascript</h3>
+        </div>
+        <div className="bubble center section round">
+          <img className="round" src={certiportCertificate1} alt="MABPA 2025 Web Award"></img>
+          <h1>MABPA Web Design Award</h1>
+          <h3>MABPA SLC 2025 Fundamentals of Web Design</h3>
+        </div>
+        <div className="bubble center section round">
+          <img className="round" src={certiportCertificate2} alt="MABPA 2025 C# Award"></img>
+          <h1>MABPA C# Programming Award</h1>
+          <h3>MABPA SLC 2025 C# Programming</h3>
         </div>
       </div>
     </>
