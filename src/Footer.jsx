@@ -9,12 +9,12 @@ export function Footer() {
         <br></br>
         <div className="flex around">
           <div>
-            <div className="flex center">
+            <div className="flex">
               <p>Home Email</p>
               <p><i className="fa-solid fa-envelope"></i></p>
               <p><a href="mailto:isidororossinia@gmail.com" target="_blank">isidororossinia@gmail.com</a></p>
             </div>
-            <div className="flex center">
+            <div className="flex">
               <p>School Email</p>
               <p><i className="fa-solid fa-envelope"></i></p>
               <p><a href="mailto:aisidororossini2027@jpkeefehs.org" target="_blank">aisidororossini2027@jpkeefehs.org</a></p>
