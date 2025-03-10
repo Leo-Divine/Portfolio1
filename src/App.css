@@ -25,6 +25,7 @@
 }
 
 .section.bubble, .bubble img {
+  transition-duration: 0.15s;
   max-width: 450px;
 }
 .bubble img {

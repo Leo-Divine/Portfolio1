@@ -14,8 +14,11 @@ import ticTacToeGame from "./assets/img/ticTacToeGame.png";
 import schoolCertificate from "./assets/img/schoolCertificate.jpg";
 import certiportCertificate1 from "./assets/img/certiportCertificate1.png";
 import certiportCertificate2 from "./assets/img/certiportCertificate2.png";
-import contactHeaderImage from "./assets/img/contactHeaderImage.jpg";
 import oshaCertificate from "./assets/img/oshaCertification.png";
+import mabpa2025WebAward from "./assets/img/mabpa2025WebAward.png";
+import mabpa2025CSAward from "./assets/img/mabpa2025CSAward.png";
+import contactHeaderImage from "./assets/img/contactHeaderImage.jpg";
+
 
 const octokit = new Octokit({
   auth: process.env.REACT_APP_GIT_API_KEY
@@ -61,7 +64,7 @@ export function Home() {
 }
 
 export function About() {
-  const [state, setState] = useState([]);
+  const [state, setState] = useState([<p>Loading...</p>]);
 
   useEffect(() => {
     getTopLanguages().then((response) => {
@@ -216,25 +219,25 @@ export function Projects() {
         </div>
       </div>
       <div className="flex around text-center">
-        <div className="bubble center section round">
+        <div className="bubble center section round responsive">
           <img className="round" src={matchThreeGame} alt="Match 3 Game"></img>
           <h1>Match 3 Game</h1>
           <h3>A simple version of a match 3 game made in JavaScript. The game is similar to Candy Crush.</h3>
           <a href="https://leo-divine.github.io/Match-3-Game/" target="_blank">Play the Game Here!</a>
         </div>
-        <div className="bubble center section round">
+        <div className="bubble center section round responsive">
           <img className="round" src={flappyBird} alt="Flappy Bird"></img>
           <h1>Flappy Birb</h1>
           <h3>A simplified version of the game Flappy Bird made in JavaScript created for showcases.</h3>
           <a href="https://leo-divine.github.io/Flappy-Birb/" target="_blank">Play the Game Here!</a>
         </div>
-        <div className="bubble center section round">
+        <div className="bubble center section round responsive">
           <img className="round" src={calculatorApp} alt="Calculator App"></img>
           <h1>Calculator App</h1>
           <h3>A calculator app I made in Java to learn the language.</h3>
           <a href="https://github.com/leo-divine/Calculator" target="_blank">See the Code Here!</a>
         </div>
-        <div className="bubble center section round">
+        <div className="bubble center section round responsive">
           <img className="round" src={ticTacToeGame} alt="Tic Tac Toe Game"></img>
           <h1>Tic Tac Toe Game</h1>
           <h3>A recreation of the Tic Tac Toe game I made in Java.</h3>
@@ -366,38 +369,38 @@ export function Certification() {
         <h3 className="text-center">Here are my Awards and Certificates that show off my abilities.</h3>
       </header>
       <div className="flex around text-center">
-        <div className="bubble center section round">
+        <div className="bubble center section round responsive">
           <img className="round" src={certiportCertificate1} alt="Certiport Certificate"></img>
           <h1>HTML and CSS Certification</h1>
           <h3>Information Technology Specialist in HTML and CSS</h3>
           <h4>May 21st, 2024</h4>
         </div>
-        <div className="bubble center section round">
+        <div className="bubble center section round responsive">
           <img className="round" src={schoolCertificate} alt="School Certificate"></img>
           <h1>Certificate of Achievement</h1>
           <h3>Most Outstanding: Programming and Web Development</h3>
           <h4>June 3rd, 2024</h4>
         </div>
-        <div className="bubble center section round">
+        <div className="bubble center section round responsive">
           <img className="round" src={certiportCertificate2} alt="Certiport Certificate"></img>
           <h1>Javascript Certification</h1>
           <h3>Information Technology Specialist in Javascript</h3>
           <h4>Sep 20th, 2024</h4>
         </div>
-        <div className="bubble center section round">
-          <img className="round" src={oshaCertificate} alt="MABPA 2025 C# Award"></img>
+        <div className="bubble center section round responsive">
+          <img className="round" src={oshaCertificate} alt="OSHA Certificate"></img>
           <h1>OSHA Certification</h1>
           <h3>OSHA 10-Hour General Industry Course</h3>
           <h4>Feb 28th, 2025</h4>
         </div>
-        <div className="bubble center section round">
-          <img className="round" src="" alt="MABPA 2025 Web Award"></img>
+        <div className="bubble center section round responsive">
+          <img className="round" src={mabpa2025WebAward} alt="MABPA 2025 Web Award"></img>
           <h1>MABPA Web Design Award</h1>
           <h3>MABPA SLC 2025 Fundamentals of Web Design</h3>
           <h4>Mar 9th, 2025</h4>
         </div>
-        <div className="bubble center section round">
-          <img className="round" src="" alt="MABPA 2025 C# Award"></img>
+        <div className="bubble center section round responsive">
+          <img className="round" src={mabpa2025CSAward} alt="MABPA 2025 C# Award"></img>
           <h1>MABPA C# Programming Award</h1>
           <h3>MABPA SLC 2025 C# Programming</h3>
           <h4>Mar 9th, 2025</h4>

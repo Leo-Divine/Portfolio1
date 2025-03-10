@@ -38,6 +38,10 @@ header {
   font-size: 1.5em;
 }
 
+a {
+  transition-duration: 0.15s;
+}
+
 p>a,
 p>i,
 header p {
@@ -156,5 +160,25 @@ h3 {
 
   .split {
     width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .bubble.responsive:hover img{
+    max-width: 475px;
+  }
+
+  .bubble.responsive:hover {
+    max-width: 475px;
+  }
+
+  a:hover {
+    font-size: 1.65em;
+  }
+  p>a:hover {
+    font-size: 1.1em;
+  }
+  #nav-bar>a:hover {
+    font-size: 1.85em;
   }
 }
