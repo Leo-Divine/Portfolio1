@@ -13,6 +13,7 @@ import schoolCertificate from "./assets/img/schoolCertificate.jpg";
 import certiportCertificate1 from "./assets/img/certiportCertificate1.png";
 import certiportCertificate2 from "./assets/img/certiportCertificate2.png";
 import contactHeaderImage from "./assets/img/contactHeaderImage.jpg";
+import oshaCertificate from "./assets/img/oshaCertification.png";
 
 export function Home() {
   return (
@@ -241,6 +242,13 @@ export function Resume() {
           <li>Packaged food and cleaned the food pantry.</li>
         </ul>
         <br></br>
+        <h2>Certifications</h2>
+        <ul>
+          <li>Certiport HTML & CSS Certification</li>
+          <li>Certiport JavaScript Certification</li>
+          <li>OSHA 10-Hour General Industry Course</li>
+        </ul>
+        <br></br>
         <h2>Honors & Awards</h2>
         <ul>
           <li>Keefe Tech
@@ -249,12 +257,6 @@ export function Resume() {
               <li>Keefe Tech Certificate of Achievement in Programming & Web</li>
               <li>Keefe Tech High Honor Roll 2023-2024 | Term I - Term III</li>
               <li>Keefe Tech High Honor Roll 2024-2025 | Term I</li>
-            </ul>
-          </li>
-          <li>Certifications
-            <ul>
-              <li>Certiport HTML & CSS Certification</li>
-              <li>Certiport JavaScript Certification</li>
             </ul>
           </li>
           <li>Competitions
@@ -284,29 +286,40 @@ export function Certification() {
       </header>
       <div className="flex around text-center">
         <div className="bubble center section round">
-          <img className="round" src={schoolCertificate} alt="School Certificate"></img>
-          <h1>Certificate of Achievement</h1>
-          <h3>Most Outstanding: Programming and Web Development</h3>
-        </div>
-        <div className="bubble center section round">
           <img className="round" src={certiportCertificate1} alt="Certiport Certificate"></img>
           <h1>HTML and CSS Certification</h1>
           <h3>Information Technology Specialist in HTML and CSS</h3>
+          <h4>May 21st, 2024</h4>
+        </div>
+        <div className="bubble center section round">
+          <img className="round" src={schoolCertificate} alt="School Certificate"></img>
+          <h1>Certificate of Achievement</h1>
+          <h3>Most Outstanding: Programming and Web Development</h3>
+          <h4>June 3rd, 2024</h4>
         </div>
         <div className="bubble center section round">
           <img className="round" src={certiportCertificate2} alt="Certiport Certificate"></img>
           <h1>Javascript Certification</h1>
           <h3>Information Technology Specialist in Javascript</h3>
+          <h4>Sep 20th, 2024</h4>
         </div>
         <div className="bubble center section round">
-          <img className="round" src={certiportCertificate1} alt="MABPA 2025 Web Award"></img>
+          <img className="round" src={oshaCertificate} alt="MABPA 2025 C# Award"></img>
+          <h1>OSHA Certification</h1>
+          <h3>OSHA 10-Hour General Industry Course</h3>
+          <h4>Feb 28th, 2025</h4>
+        </div>
+        <div className="bubble center section round">
+          <img className="round" src="" alt="MABPA 2025 Web Award"></img>
           <h1>MABPA Web Design Award</h1>
           <h3>MABPA SLC 2025 Fundamentals of Web Design</h3>
+          <h4>Mar 9th, 2025</h4>
         </div>
         <div className="bubble center section round">
-          <img className="round" src={certiportCertificate2} alt="MABPA 2025 C# Award"></img>
+          <img className="round" src="" alt="MABPA 2025 C# Award"></img>
           <h1>MABPA C# Programming Award</h1>
           <h3>MABPA SLC 2025 C# Programming</h3>
+          <h4>Mar 9th, 2025</h4>
         </div>
       </div>
     </>
