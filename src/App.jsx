@@ -14,6 +14,7 @@ import ticTacToeGame from "./assets/img/ticTacToeGame.png";
 import schoolCertificate from "./assets/img/schoolCertificate.jpg";
 import certiportCertificate1 from "./assets/img/certiportCertificate1.png";
 import certiportCertificate2 from "./assets/img/certiportCertificate2.png";
+import certiportCertificate3 from "./assets/img/certiportCertificate3.png";
 import oshaCertificate from "./assets/img/oshaCertification.png";
 import mabpa2025WebAward from "./assets/img/mabpa2025WebAward.png";
 import mabpa2025CSAward from "./assets/img/mabpa2025CSAward.png";
@@ -330,6 +331,7 @@ export function Resume() {
         <ul>
           <li>Certiport HTML & CSS Certification</li>
           <li>Certiport JavaScript Certification</li>
+          <li>Certiport HTML5 Application Certification</li>
           <li>OSHA 10-Hour General Industry Course</li>
         </ul>
         <br></br>
@@ -404,6 +406,12 @@ export function Certification() {
           <h1>MABPA C# Programming Award</h1>
           <h3>MABPA SLC 2025 C# Programming</h3>
           <h4>Mar 9th, 2025</h4>
+        </div>
+        <div className="bubble center section round responsive">
+          <img className="round" src={certiportCertificate3} alt="Certiport Certificate"></img>
+          <h1>HTML5 Application Certification</h1>
+          <h3>Information Technology Specialist in HTML5 Application Development</h3>
+          <h4>Apr 4th, 2025</h4>
         </div>
       </div>
     </>
