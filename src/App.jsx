@@ -9,7 +9,7 @@ import crystalClicker from "./assets/img/crystalClicker.png";
 import musicApp from "./assets/img/musicApp.png";
 import matchThreeGame from "./assets/img/matchThreeGame.png";
 import flappyBird from "./assets/img/flappyBird.png";
-import calculatorApp from "./assets/img/calculatorApp.png";
+import chessGame from "./assets/img/chessGame.png";
 import ticTacToeGame from "./assets/img/ticTacToeGame.png";
 import schoolCertificate from "./assets/img/schoolCertificate.jpg";
 import certiportCertificate1 from "./assets/img/certiportCertificate1.png";
@@ -233,10 +233,10 @@ export function Projects() {
           <a href="https://leo-divine.github.io/Flappy-Birb/" target="_blank">Play the Game Here!</a>
         </div>
         <div className="bubble center section round responsive">
-          <img className="round" src={calculatorApp} alt="Calculator App"></img>
-          <h1>Calculator App</h1>
-          <h3>A calculator app I made in Java to learn the language.</h3>
-          <a href="https://github.com/leo-divine/Calculator" target="_blank">See the Code Here!</a>
+          <img className="round" src={chessGame} alt="Chess Game"></img>
+          <h1>Chess Game</h1>
+          <h3>A recreation of chess made in Rust.</h3>
+          <a href="https://github.com/Leo-Divine/Chess-Game/archive/refs/tags/1.0.zip" target="_blank">Download the Application Here!</a>
         </div>
         <div className="bubble center section round responsive">
           <img className="round" src={ticTacToeGame} alt="Tic Tac Toe Game"></img>
