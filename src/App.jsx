@@ -236,7 +236,7 @@ export function Projects() {
           <img className="round" src={chessGame} alt="Chess Game"></img>
           <h1>Chess Game</h1>
           <h3>A recreation of chess made in Rust.</h3>
-          <a href="https://github.com/Leo-Divine/Chess-Game/archive/refs/tags/1.0.zip" target="_blank">Download the Application Here!</a>
+          <a href="javascript: (() => { alert('Temporarily Disabled') })();" target="_blank" style={{cursor: 'not-allowed'}}>Download the Application Here!</a>
         </div>
         <div className="bubble center section round responsive">
           <img className="round" src={ticTacToeGame} alt="Tic Tac Toe Game"></img>
