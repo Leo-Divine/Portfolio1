@@ -12,9 +12,10 @@ import flappyBird from "./assets/img/flappyBird.png";
 import chessGame from "./assets/img/chessGame.png";
 import ticTacToeGame from "./assets/img/ticTacToeGame.png";
 import schoolCertificate from "./assets/img/schoolCertificate.jpg";
-import certiportCertificate1 from "./assets/img/certiportCertificate1.png";
-import certiportCertificate2 from "./assets/img/certiportCertificate2.png";
-import certiportCertificate3 from "./assets/img/certiportCertificate3.png";
+import certiportCertificateHTML1 from "./assets/img/certiportCertificate1.png";
+import certiportCertificateJavascript from "./assets/img/certiportCertificate2.png";
+import certiportCertificateHTML2 from "./assets/img/certiportCertificate3.png";
+import certiportCertificateJava from "./assets/img/certiportCertificate4.png";
 import oshaCertificate from "./assets/img/oshaCertification.png";
 import mabpa2025WebAward from "./assets/img/mabpa2025WebAward.png";
 import mabpa2025CSAward from "./assets/img/mabpa2025CSAward.png";
@@ -236,7 +237,7 @@ export function Projects() {
           <img className="round" src={chessGame} alt="Chess Game"></img>
           <h1>Chess Game</h1>
           <h3>A recreation of chess made in Rust.</h3>
-          <a href="javascript: (() => { alert('Temporarily Disabled') })();" target="_blank" style={{cursor: 'not-allowed'}}>Download the Application Here!</a>
+          <a href="https://github.com/Leo-Divine/Chess-Game/releases/download/1.0.1/chess_game-windows-x86_64.exe" target="_blank">Download the Application Here!</a>
         </div>
         <div className="bubble center section round responsive">
           <img className="round" src={ticTacToeGame} alt="Tic Tac Toe Game"></img>
@@ -329,9 +330,14 @@ export function Resume() {
         <br></br>
         <h2>Certifications</h2>
         <ul>
-          <li>Certiport HTML & CSS Certification</li>
-          <li>Certiport JavaScript Certification</li>
-          <li>Certiport HTML5 Application Certification</li>
+          <li>Certiport
+            <ul>
+              <li>Certiport HTML & CSS Certification</li>
+              <li>Certiport JavaScript Certification</li>
+              <li>Certiport HTML5 Application Certification</li>
+              <li>Certiport Java Certification</li>
+            </ul>
+          </li>
           <li>OSHA 10-Hour General Industry Course</li>
         </ul>
         <br></br>
@@ -372,7 +378,7 @@ export function Certification() {
       </header>
       <div className="flex around text-center">
         <div className="bubble center section round responsive">
-          <img className="round" src={certiportCertificate1} alt="Certiport Certificate"></img>
+          <img className="round" src={certiportCertificateHTML1} alt="Certiport Certificate"></img>
           <h1>HTML and CSS Certification</h1>
           <h3>Information Technology Specialist in HTML and CSS</h3>
           <h4>May 21st, 2024</h4>
@@ -384,7 +390,7 @@ export function Certification() {
           <h4>June 3rd, 2024</h4>
         </div>
         <div className="bubble center section round responsive">
-          <img className="round" src={certiportCertificate2} alt="Certiport Certificate"></img>
+          <img className="round" src={certiportCertificateJavascript} alt="Certiport Certificate"></img>
           <h1>Javascript Certification</h1>
           <h3>Information Technology Specialist in Javascript</h3>
           <h4>Sep 20th, 2024</h4>
@@ -408,10 +414,16 @@ export function Certification() {
           <h4>Mar 9th, 2025</h4>
         </div>
         <div className="bubble center section round responsive">
-          <img className="round" src={certiportCertificate3} alt="Certiport Certificate"></img>
+          <img className="round" src={certiportCertificateHTML2} alt="Certiport Certificate"></img>
           <h1>HTML5 Application Certification</h1>
           <h3>Information Technology Specialist in HTML5 Application Development</h3>
           <h4>Apr 4th, 2025</h4>
+        </div>
+        <div className="bubble center section round responsive">
+          <img className="round" src={certiportCertificateJava} alt="Certiport Certificate"></img>
+          <h1>Java Certification</h1>
+          <h3>Information Technology Specialist in Java</h3>
+          <h4>Apr 10th, 2025</h4>
         </div>
       </div>
     </>
